@@ -1,0 +1,39 @@
+package ArmstrongNumber;
+
+import java.util.Scanner;
+
+public class Usernamelogin {
+
+	public static void main(String[] args) {
+		
+		for(int i=0;i<3;i++) {
+			
+			Scanner sc= new Scanner(System.in); 
+			
+			String user="nihal";
+			
+			String pass="mirza";
+			
+			//Enter USername
+			System.out.println("Enter the Username :");
+			String username= sc.next();
+			
+			//Enter password
+			System.out.println("Enter the Password:");
+			String password=sc.next();
+			
+			if((user.equals(username)) && (pass.equals(password))) {
+				System.out.println("welcome" +username);
+				break;
+			}
+			else if(i==2){
+				System.out.println("Contact Admin");
+			}
+			
+			
+		}
+		
+		
+		
+	}
+}

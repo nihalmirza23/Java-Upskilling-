@@ -1,0 +1,39 @@
+package IntermediateOop;
+
+
+
+
+
+
+
+
+
+
+public class CalculateSalary {
+
+public int calculateTotalSalary(int days) {
+	
+	return days;
+}	
+}
+
+class  Manager extends CalculateSalary{
+	int incentives=30000;
+	
+	@Override
+	public int calculateTotalSalary(int days) {
+		// TODO Auto-generated method stub
+		return (days*500)+incentives;
+	}
+}
+
+class Labour extends CalculateSalary{
+	
+	int overtime=300;
+	
+	@Override
+	public int calculateTotalSalary(int days) {
+		// TODO Auto-generated method stub
+		return (days*300)+overtime;
+	}
+}

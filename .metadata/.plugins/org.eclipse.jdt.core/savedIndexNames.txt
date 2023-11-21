@@ -1,0 +1,4 @@
+INDEX VERSION 1.131+C:\Users\NASLAMMI\Documents\Darden Upskilling Training\.metadata\.plugins\org.eclipse.jdt.core
+1865797976.index
+2796473732.index
+2041188847.index

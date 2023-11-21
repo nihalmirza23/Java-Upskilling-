@@ -1,0 +1,18 @@
+package BasicJava;
+
+import java.util.Scanner;
+
+public class Averagesubject {
+
+	public static void main(String[] args) {
+		
+		Scanner sc=new Scanner(System.in);
+		
+		
+		//Enter the first subject marks
+		System.out.println("Enter first subject marks:");
+		int first = sc.nextInt();
+	}
+	
+	
+}
