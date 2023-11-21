@@ -34,4 +34,9 @@ public class ArmstrongRange {
 		
 		
 	}
+
+	public ArmstrongRange() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
 }
